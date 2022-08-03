@@ -72,11 +72,12 @@ button .material-icons {
     vertical-align: middle;
 }
 
-/* header {
+header {
     display: flex;
     justify-content: center;
     padding: 15px 10px;
     background-color: #ffbf00;
+    color: #000;
 }
 
 #app {
@@ -85,4 +86,10 @@ button .material-icons {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
+
+#todo-list #todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
